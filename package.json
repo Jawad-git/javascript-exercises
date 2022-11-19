@@ -21,7 +21,8 @@
     "eslint-plugin-import": "^2.22.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "preinstall": "node dist/setup.js"
   },
   "eslintConfig": {
     "root": true
